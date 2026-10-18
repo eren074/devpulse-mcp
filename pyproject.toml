@@ -1,0 +1,14 @@
+[project]
+name = "devpulse-mcp"
+version = "0.1.0"
+description = "MCP v2 server and client for local codebase analytics, technical debt scanning, dependency inspection, and Git insights."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]

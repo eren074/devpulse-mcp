@@ -1,0 +1,28 @@
+# Python sanal ortam ve önbellek dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Ortam değişkenleri ve gizli anahtarlar (ASLA YÜKLENMEMELİ)
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*credentials*
+
+# Kişisel dosya yollarını içerebilecek yerel IDE ayarları
+.cursor/
+.vscode/
+.idea/
+
+# macOS ve işletim sistemi kalıntıları
+.DS_Store
+Thumbs.db
